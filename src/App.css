@@ -1,0 +1,65 @@
+/* ----Navbar---- */
+.navbar-brand {
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid;
+  color: orangered;
+}
+
+/* ----Home---- */
+#home span a {
+  text-decoration: none;
+}
+#home span a:hover {
+  border-bottom: 1px solid rgb(68, 98, 196);
+}
+.list-group-item {
+  height: 40px;
+
+  padding-left: 10px;
+  font-size: 20px;
+}
+/* ----Card---- */
+.cardData-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  margin:30px; 
+}
+.card{
+    padding: 10px 10px;
+    background:whitesmoke;
+    
+}
+.card:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card-title{
+    color:rgb(37, 103, 179);
+    
+}
+.card-subtitle{
+    font-size: 14px;
+    padding-top: 5px;
+}
+.card-social-media{
+    display: flex;
+    gap:10px;
+    padding-top: 10px;
+}
+.card-bottom{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+}
+.card-bottom{
+    display: flex;
+    flex-direction: row;
+}
